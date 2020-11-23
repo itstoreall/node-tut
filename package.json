@@ -1,0 +1,23 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
+  },
+  "author": "Serhii Stanislav <serhiistanislav@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash.throttle": "^4.1.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
